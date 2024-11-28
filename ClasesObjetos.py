@@ -24,6 +24,10 @@ class FirstExercise:
         print(self.number)
 
 
+obj = FirstExercise(6, "Clases y objetos")
+
+obj.print_number()
+
 # Crea una clase Circle que dado un radio permita consultar el área, el perímetro y permita modificar el radio.
 class Circle:
     def __init__(self, radio):
